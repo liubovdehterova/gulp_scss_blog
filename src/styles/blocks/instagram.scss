@@ -1,0 +1,22 @@
+@import "../_mixin/mixins";
+.instagram {
+  padding: 48px 0;
+  &__header {
+    @include flex;
+    &__title {
+      @include title-blk;
+    }
+    &__link {
+      @include title-blk;
+      font-size: 13px;
+    }
+  }
+  &__list {
+    @include flex;
+    &__item {
+      &__link {
+        display: block;
+      }
+    }
+  }
+}

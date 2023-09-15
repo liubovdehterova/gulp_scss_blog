@@ -1,0 +1,43 @@
+@import "../_mixin/mixins";
+@import "../_variables/variables";
+
+.posts {
+  margin-bottom: $margin-bottom-blocks;
+  &__title {
+    @include title-blk;
+  }
+  &__main {
+    @include flex;
+    flex-wrap: wrap;
+  }
+}
+
+.post {
+  width: calc(50% - 25.5px);
+  margin-bottom: $post-mb;
+  &__link {
+    @include flex;
+    align-items: flex-start;
+
+    img {
+      margin-right: 20px;
+    }
+    &__info {
+      &__title {
+        color: $color-title-and-nav;
+        font-size: $font-size-subtitle;
+        line-height: 30px;
+      }
+
+      &__author {
+        color: $color-author;
+        font-size: $font-size-author;
+        margin-bottom: 13px;
+      }
+      &__description {
+        color: $color-description;
+        font-size: $font-size-desc;
+      }
+    }
+  }
+}

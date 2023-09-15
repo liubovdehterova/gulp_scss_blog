@@ -1,0 +1,12 @@
+@import "../_variables/variables";
+@media only screen and (max-width: $layout-breakpoint-xxl) {
+  .banner {
+    margin-bottom: 59px;
+  }
+}
+
+@media only screen and (max-width: $layout-breakpoint-xl) {
+  .banner {
+    margin-bottom: 39px;
+  }
+}

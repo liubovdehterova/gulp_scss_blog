@@ -1,0 +1,15 @@
+@import "../_variables/variables";
+
+body {
+  padding-top: 29px;
+  font-family: $font-main-regular;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: $link-none-decoration;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}

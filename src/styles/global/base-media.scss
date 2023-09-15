@@ -1,0 +1,12 @@
+@import "../_variables/variables";
+
+@media only screen and (max-width: $layout-breakpoint-xxl) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: $layout-breakpoint-xl) {
+  .container {
+    max-width: 320px;
+  }
+}

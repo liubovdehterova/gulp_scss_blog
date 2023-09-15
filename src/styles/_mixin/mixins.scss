@@ -1,0 +1,15 @@
+@import "../_variables/variables";
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin title-blk {
+  color: $color-title-and-nav;
+  text-transform: $text-transform-uppercase;
+  font-family: $font-main-bold;
+  margin-bottom: $subtitle-mb;
+  font-size: $font-size-subtitle;
+}
